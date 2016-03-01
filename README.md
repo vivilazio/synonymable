@@ -22,7 +22,10 @@ Or install it yourself as:
 
 add 'acts_as_synonymable' on your models where you whant to handle synonyms
 migrate your model:
-rails g migration addMasterToRecord master_record_id:integer with null: true. You could add and an index too.
+```bash
+rails g migration addMasterToRecord master_record_id:integer
+```
+with null: true. You could add an index too.
 
 ## Development
 
