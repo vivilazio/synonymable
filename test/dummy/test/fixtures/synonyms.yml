@@ -1,0 +1,6 @@
+regalo:
+  name: regalo
+
+presente:
+  name: presente
+  master_synonym: regalo
